@@ -1,0 +1,12 @@
+.post_image{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.post_name{
+    color: darkolivegreen;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
