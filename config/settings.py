@@ -120,7 +120,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 #for css
-STATICFILES_DIRS = [BASE_DIR / 'static']
+# STATICFILES_DIRS = [BASE_DIR / 'static']
+
+STATIC_ROOT = str(BASE_DIR.joinpath('static'))
 
 
 
